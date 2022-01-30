@@ -16,16 +16,22 @@ x = int(input('\nDigite o primeiro número:  '))
 
 y = int(input('\nDigite o segundo número:  ')) 
 
+
 if a == 1:
     somar = x + y
-    print('\n{} + {} = {}'.format(x, y, somar))
+    print(f'\n{x} + {y} = {somar}')
+
+    
 elif a == 2:
     subtrair = x - y
-    print('\n{} - {} = {}'.format(x, y, subtrair))
+    print(f'\n{x} - {y} = {subtrair}')
+
 elif a == 3:
     multiplicar = x * y
-    print('\n{} * {} = {}'.format(x, y, multiplicar))
+    print(f'\n{x} * {y} = {multiplicar}')
+
 elif a == 4:
     dividir = x/y
-    print('\n{} / {} = {}'.format(x, y, dividir))
-else: print ('\nA opção escolhida é inválida!')
+    print(f'\n{x} / {y} = {dividir}')
+
+else: print ('\nA opção escolhida é inválida!') 
